@@ -1,0 +1,6 @@
+🛠️ How It Works (Step-by-Step)
+1️⃣ User types a message in the chat.
+2️⃣ Backend sends it to OpenAI API to generate a response.
+3️⃣ Response text is sent to ElevenLabs API (or Google TTS) to convert it to audio.
+4️⃣ Backend sends back the audio file to the frontend.
+5️⃣ User listens to the response.

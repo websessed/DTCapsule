@@ -1,6 +1,43 @@
+MVP FOCUSED:
+
 🛠️ How It Works (Step-by-Step)
-1️⃣ User types a message in the chat.
+1️⃣ User types/records a message in the chat.
 2️⃣ Backend sends it to OpenAI API to generate a response.
-3️⃣ Response text is sent to ElevenLabs API (or Google TTS) to convert it to audio.
+3️⃣ Response text is sent to Google TTS to convert it to audio.
 4️⃣ Backend sends back the audio file to the frontend.
-5️⃣ User listens to the response.
+5️⃣ User listens to the response in real time.
+
+--
+
+Features of Noa 
+1️⃣ User Input & Interaction
+✅ Text Input – Users can type their thoughts/questions
+✅ Voice Input (Speech-to-Text) – Users can talk instead of typing
+✅ Multi-Language Support – Allows users to chat in different languages
+
+2️⃣ Voice Output & Personalization
+✅ Text-to-Speech (TTS) – Converts AI responses to realistic voice
+✅ Customizable AI Voices – Users can choose different therapist voices
+✅ Adjustable Tone & Style – AI can be soft, motivational, or tough-love
+
+--
+
+🛠️ Tools 
+
+Frontend {
+    Vue 
+    Nuxt 
+    Pinia 
+    Vite 
+}
+
+Backend & DB {
+    MongoDB
+    Express
+    Node
+}
+
+AI frameworks {
+    OpenAI 
+    Google TTS 
+}

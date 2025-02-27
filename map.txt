@@ -41,3 +41,8 @@ AI frameworks {
     OpenAI 
     Google TTS 
 }
+
+Voice Inspo {
+    Dry Creek
+    Mel Robbins
+}

@@ -1,48 +1,52 @@
-MVP FOCUSED:
 
-🛠️ How It Works (Step-by-Step)
-1️⃣ User types/records a message in the chat.
-2️⃣ Backend sends it to OpenAI API to generate a response.
-3️⃣ Response text is sent to Google TTS to convert it to audio.
-4️⃣ Backend sends back the audio file to the frontend.
-5️⃣ User listens to the response in real time.
+Capsule creation: 
+    users create multiple capsules ( 1 per year )
 
---
+Capsule editing: 
+    users can add, edit or remove content from capsules before sealing
+    it
 
-Features of Noa 
-1️⃣ User Input & Interaction
-✅ Text Input – Users can type their thoughts/questions
-✅ Voice Input (Speech-to-Text) – Users can talk instead of typing
-✅ Multi-Language Support – Allows users to chat in different languages
+Content Management: 
+    content in each capsule are given names (e.g Travel) and files are placed 
+    in such name categories e.g adding travel vlogs inside 'Travel'
 
-2️⃣ Voice Output & Personalization
-✅ Text-to-Speech (TTS) – Converts AI responses to realistic voice
-✅ Customizable AI Voices – Users can choose different therapist voices
-✅ Adjustable Tone & Style – AI can be soft, motivational, or tough-love
+Home Screen: 
+    overview of all capsules - sealed (awaiting opening), open (accessible), 
+    and in-progress (being edited)
 
---
+    sort/filter capsules by status, opening date, or tags
 
-🛠️ Tools 
+Storage:
+    Media files (images, audio, videos & texts)
 
-Frontend {
-    Vue 
-    Nuxt 
-    Pinia 
-    Vite 
-}
+Time-locked sharing:
+    capsule unlocks at a specified date
 
-Backend & DB {
-    MongoDB
-    Express
-    Node
-}
+Encryption:
+    each capsule can be opened using the correct private key
 
-AI frameworks {
-    OpenAI 
-    Google TTS 
-}
+Collaboration: 
+    Multiple people contribute to a single capsule, with access rules 
+    for each contributor 
 
-Voice Inspo {
-    Dry Creek
-    Mel Robbins
-}
+Auto unlock:
+    If the user doesn't check in after X years, the capsule auto-unlocks
+    for a designated recipient
+
+Annual Lock:
+    each capsule opens from Jan 1 - Dec 30 of each year, during this period, 
+    users can fill the capsule with data. The capsule locks at Dec 31
+
+Notification: 
+    notifications - countdown reminders, capsule unlockings, contribution requests,
+    feature announcements, contribution activities, 
+
+AI enhancements:
+    AI enhances the quality of Images, videos and audios from time to time 
+
+Wrapped unlockings: 
+    capsule unlocks are revealed in a Spotify-wrapped theme style, with a calming
+    background music 
+
+Capsule Export: 
+    users can export capsules manually in a zip folder

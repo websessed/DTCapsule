@@ -1,0 +1,41 @@
+
+version 1:
+    -multi-media support (img, vid, audio, texts, docs, data files)
+    -user auth & security
+    -capsule mgmt (create, edit, update, delete)
+    -capsule categories (users create specific folders within a capsule e.g 'My Trip to Canada', 'My Highshool Pics')
+    -capsule lifecycle (opens jan 1 - dec 30, locks dec 31 - unlock date {custom: 50yrs max})
+    -capsule details (capsule name/id, owner name, date created, unlock date, file count, status {opened, active, locked}, type {private, public}, access {personal, shared})
+    -basic analytics {opened/closed capsules, active capsules, deleted capsules}
+    -settings
+    -notifications 
+
+
+version 2:
+    -shared capsules (family, friends, teams) {role-based access}
+
+
+version 3:
+    -public capsules
+    -improved media-support (zip files, private keys, passwords)
+
+
+version 4:
+    -capsule backups (zip file or google drive {encrypted})
+
+
+version 5:
+    -DTCapsule wrapped (spotify-like theme)
+    -AI media quality upscaling/restoration
+
+
+Tech stack {
+    React, Zustand, Vite
+    PostgreSql, Prisma
+    Node, Express
+    BullMQ, Redis 
+    Cloudinary 
+    AuthO, JWT
+    GSAP    
+    Chart
+}

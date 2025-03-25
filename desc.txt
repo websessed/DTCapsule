@@ -10,43 +10,47 @@ Content Management:
     content in each capsule are given names (e.g Travel) and files are placed 
     in such name categories e.g adding travel vlogs inside 'Travel'
 
-Home Screen: 
-    overview of all capsules - sealed (awaiting opening), open (accessible), 
-    and in-progress (being edited)
 
-    sort/filter capsules by status, opening date, or tags
+version 1:
+    -secure storage vault (media: imgs, vids, audios & texts)
+    -authentication
+    -capsule encryption (private keys)
+    -time-locked capsules 
+    -capsule details (date created, file count (e.g 2 vids, 15 imgs)
+    -capsule mgmt (create, edit, update or delete content)
+    -structured edit window (open Jan 1 - Dec 30, locks Dec 31)
+    -custom edit window (opens from day x - date specified by users)
+    -fail safe (7 day grace period if user locks capsule too early)
+    -auto unlock (if users doesn't check in for x years)
+    -basic analysis (upcoming unlocks, closed/open capsules)
+    -notifications
+    -settings
+    
 
-Storage:
-    Media files (images, audio, videos & texts)
+version 2:
+    -collaboration (multi-access capsules)
+    -multi device sync
 
-Time-locked sharing:
-    capsule unlocks at a specified date
 
-Encryption:
-    each capsule can be opened using the correct private key
+version 3:
+    -DTCapsule wrapped (unlock capsules in spotify-wrapped theme)
+    -public capsules 
 
-Collaboration: 
-    Multiple people contribute to a single capsule, with access rules 
-    for each contributor 
 
-Auto unlock:
-    If the user doesn't check in after X years, the capsule auto-unlocks
-    for a designated recipient
+version 4:
+    -capsule backup (extractable zip file, google drive)
 
-Annual Lock:
-    each capsule opens from Jan 1 - Dec 30 of each year, during this period, 
-    users can fill the capsule with data. The capsule locks at Dec 31
 
-Notification: 
-    notifications - countdown reminders, capsule unlockings, contribution requests,
-    feature announcements, contribution activities, 
+version 4:
+    -AI enhancement (enrich media quality automatically)
 
-AI enhancements:
-    AI enhances the quality of Images, videos and audios from time to time 
 
-Wrapped unlockings: 
-    capsule unlocks are revealed in a Spotify-wrapped theme style, with a calming
-    background music 
-
-Capsule Export: 
-    users can export capsules manually in a zip folder
+Tech Stack {
+    React, Vite
+    PostgreSql, Prisma 
+    Node, Express
+    BullMQ, Redis 
+    Cloudinary
+    AuthO, JWT 
+    GSAP
+}

@@ -29,13 +29,11 @@ version 5:
     -AI media quality upscaling/restoration
 
 
-Tech stack {
-    React, Zustand, Vite
+Tech stack (MVP {version 1 - 3}){
+    React, Typescript, GSAP
     PostgreSql, Prisma
     Node, Express
-    BullMQ, Redis 
-    Cloudinary 
-    AuthO, JWT
-    GSAP    
-    Chart
+    SocketIO
+    Cloudinary
+    AuthO
 }

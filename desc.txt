@@ -1,14 +1,12 @@
 
 version 1:
-    -multi-media support (img, vid, audio, texts, docs, data files)
-    -user auth & security
-    -capsule mgmt (create, edit, update, delete)
-    -capsule categories (users create specific folders within a capsule e.g 'My Trip to Canada', 'My Highshool Pics')
-    -capsule lifecycle (opens jan 1 - dec 30, locks dec 31 - unlock date {custom: 50yrs max})
-    -capsule details (capsule name/id, owner name, date created, unlock date, file count, status {opened, active, locked}, type {private, public}, access {personal, shared})
-    -basic analytics {opened/closed capsules, active capsules, deleted capsules}
-    -settings
-    -notifications 
+    -user authentication
+    -file uploads & storage (img, aud, vid, txt)
+    -capsule locks/unlocks 
+    -create & modify capsules
+    -basic analytics  
+    -notifications
+    -settings 
 
 
 version 2:
@@ -29,11 +27,8 @@ version 5:
     -AI media quality upscaling/restoration
 
 
-Tech stack (MVP {version 1 - 3}){
-    React, Typescript, GSAP
-    PostgreSql, Prisma
-    Node, Express
-    SocketIO
-    Cloudinary
-    AuthO
+Tech stack {
+    Node, Express, OAuth
+    Postgres, Redis
+    React 
 }

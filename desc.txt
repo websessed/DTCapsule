@@ -7,6 +7,7 @@ version 1:
     -basic analytics  
     -notifications
     -settings 
+    -DTCapsule wrapped 
 
 
 version 2:
@@ -22,13 +23,3 @@ version 4:
     -capsule backups (zip file or google drive {encrypted})
 
 
-version 5:
-    -DTCapsule wrapped (spotify-like theme)
-    -AI media quality upscaling/restoration
-
-
-Tech stack {
-    Node, Express, OAuth
-    Postgres, Redis
-    React 
-}

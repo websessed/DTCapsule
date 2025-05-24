@@ -7,11 +7,12 @@ version 1:
     -basic analytics  
     -notifications
     -settings 
+    -capsule unlock timer 
     -DTCapsule wrapped 
 
 
 version 2:
-    -shared capsules (family, friends, teams) {role-based access}
+    -group capsules (family, friends, teams) {role-based access}
 
 
 version 3:
@@ -23,3 +24,15 @@ version 4:
     -capsule backups (zip file or google drive {encrypted})
 
 
+use cases: 
+    -end of year reflections
+    -documenting periods of one's life
+    -digital will / legacy planning 
+    -mental health journaling 
+    -kids growing up 
+    -writing letters to future self
+    -milestone lockers 
+    -weddings / anniversaries
+    -funeral time capsules 
+    -historical archives
+    -community events

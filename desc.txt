@@ -36,3 +36,12 @@ use cases:
     -funeral time capsules 
     -historical archives
     -community events
+
+
+
+Tech Stack {
+    React, GSAP, Zustand
+    Socket, Toastify
+    Node, Express 
+    Postgre
+}

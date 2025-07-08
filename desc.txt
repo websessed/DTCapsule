@@ -37,11 +37,3 @@ use cases:
     -historical archives
     -community events
 
-
-
-Tech Stack {
-    React, GSAP, Zustand
-    Socket, Toastify
-    Node, Express 
-    Postgre
-}

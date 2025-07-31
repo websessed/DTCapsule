@@ -14,7 +14,7 @@ version 1:
 
 version 2:
     -search & filters (find capsules by title, tag)
-    -share capsules (make capsules for others)
+    -share capsules (send capsules to others)
 
 
 version 3:
